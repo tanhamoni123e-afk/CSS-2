@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+}
+.hero{
+    background-image: url('images/gp-1.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.project{
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.project-item{
+    float: left;
+    width: 32%;
+    border:3px solid green;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.project-image{
+    height: 200px;
+    width: 100%;
+}
+.footer{
+    margin-top: 20px;
+    height: 150px;
+    background-color: sandybrown;
+
+
+}
+.footer-item{
+   float: inline-start;
+   width: 33%;
+   margin-top: 15px;
+}
+
+.link{
+    text-decoration: none;
+    display: block;
+}
