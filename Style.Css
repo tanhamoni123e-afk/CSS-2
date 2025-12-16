@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border box;
 }
-.hero{
+
+.hero {
     background-image: url('images/gp-1.jpg');
     height: 300px;
     background-repeat: no-repeat;
@@ -12,40 +13,264 @@
     overflow: hidden;
 }
 
-.project{
+.project {
     margin-top: 20px;
     overflow: hidden;
     width: 100%;
 }
 
-.project-item{
+.project-item {
     float: left;
     width: 32%;
-    border:3px solid green;
+    border: 2px solid green;
     margin-left: 10px;
     margin-bottom: 10px;
     height: 300px;
     background-color: antiquewhite;
     text-align: center;
 }
-.project-image{
+
+.project-image {
     height: 200px;
     width: 100%;
 }
-.footer{
+
+.footer {
     margin-top: 20px;
     height: 150px;
     background-color: sandybrown;
 
 
-}
-.footer-item{
-   float: inline-start;
-   width: 33%;
-   margin-top: 15px;
+
+
+
 }
 
-.link{
+.footer-item {
+    float: inline-start;
+    width: 33%;
+    margin-top: 15px;
+
+}
+
+.link {
     text-decoration: none;
     display: block;
 }
+
+
+@media screen and (max-width: 1085px) {
+    .hero {
+        color: blue
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .hero {
+        color: green
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero {
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 988px) {
+    .project-item {
+        width: 297px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .project-item {
+        width: 295px;
+    }
+}
+
+
+@media screen and (max-width: 924px) {
+    .project-item {
+        width: 290px;
+    }
+}
+
+@media screen and (max-width: 908px) {
+    .project-item {
+        width: 288px;
+    }
+}
+
+@media screen and (max-width: 904px) {
+    .project-item {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 879px) {
+    .project-item {
+        width: 277px;
+    }
+}
+
+
+@media screen and (max-width: 871px) {
+    .project-item {
+        width: 275px;
+    }
+}
+
+@media screen and (max-width: 864px) {
+    .project-item {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 848px) {
+    .project-item {
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .project-item {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 788px) {
+    .project-item {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .project-item {
+        width: 190px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 608px) {
+    .project-item {
+        width: 170px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .project-item {
+        width: 165px;
+        height: 240px;
+    }
+
+    .project-image {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 534px) {
+    .project-item {
+        width: 160px;
+        height: 245px;
+    }
+
+
+    @media screen and (max-width: 519px) {
+        .project-item {
+            width: 150px;
+            height: 245px;
+        }
+
+        @media screen and (max-width: 488px) {
+            .project-item {
+                width: 140px;
+                height: 225px;
+            }
+
+            @media screen and (max-width: 460px) {
+                .project-item {
+                    width: 200px;
+                    height: 220px;
+                }
+
+                @media screen and (max-width: 425px) {
+                    .project-item {
+                        width: 185px;
+                        height: 220px;
+                    }
+
+                    @media screen and (max-width: 396px) {
+                        .project-item {
+                            width: 380px;
+                            height: 220px;
+                        }
+
+                        @media screen and (max-width: 392px) {
+                            .project-item {
+                                width: 375px;
+                                height: 220px;
+                            }
+
+                            @media screen and (max-width: 387px) {
+                                .project-item {
+                                    width: 350px;
+                                    height: 220px;
+                                }
+
+                                @media screen and (max-width: 362px) {
+                                    .project-item {
+                                        width: 330px;
+                                        height: 220px;
+                                    }
+
+                                    @media screen and (max-width: 341px) {
+                                        .project-item {
+                                            width: 300px;
+                                            height: 220px;
+                                        }
+                                    }
+
+                                    @media screen and (max-width: 768px) {
+                                        .footer {
+                                            flex-direction: column;
+                                            text-align: center;
+                                        }
+
+                                        .footer-item {
+                                            width: 100%
+                                        }
+                                    }
+
+                                    @media screen and(max-width: 645px) {
+                                        .footer {
+                                            flex-direction: column;
+                                            text-align: center;
+                                        }
+
+                                        .footer-item {
+                                            width: 100%;
+                                        }
+                                    }
+
+                                  @media screen and (max-width: 536px) {
+                                        .footer {
+                                            flex-direction: column;
+                                            text-align: center;
+                                        }
+
+                                        .footer-item {
+                                            width: 100%;
+                                        }
+                                  }
+                                    @media screen and (max-width: 496px) {
+                                        .footer {
+                                            flex-direction: column;
+                                            text-align: center;
+                                        }
+
+                                        .footer-item {
+                                            width: 100%;
+                                        }
+                                  }
